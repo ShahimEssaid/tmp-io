@@ -54,7 +54,7 @@
   fhir:StructureDefinition.name [ fhir:value "FishPatient"];
   fhir:StructureDefinition.title [ fhir:value "Fish Patient"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-26T06:37:01+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-26T08:56:02+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
