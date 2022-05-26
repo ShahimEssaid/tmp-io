@@ -20,7 +20,7 @@
   "name": "FishPatient",
   "title": "Fish Patient",
   "status": "active",
-  "date": "2022-05-26T07:54:52+00:00",
+  "date": "2022-05-26T08:12:15+00:00",
   "description": "A patient that is a type of fish.",
   "fhirVersion": "4.0.1",
   "mapping": [
