@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="092a47a7-945c-4c2f-8459-e5317bd41c7b"/>
+  <meta>
+    <lastUpdated value="2022-05-26T09:07:52.072+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake"/>
+    <resource>
+      <ValueSet>
+        <id value="valueset-fake"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-cs-fake.html">CodeSystem fake v0.2.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-cs-fake.html">
+                <code>http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---somewhere.org-fhir-uv-myig-CodeSystem-cs-fake-01"> </a>  
+                  <a href="CodeSystem-cs-fake.html#cs-fake-01">01</a>
+                </td>
+                <td>VS1</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake"/>
+        <version value="0.2.0"/>
+        <name value="ValueSetFake"/>
+        <title value="ValueSet fake"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2015-06-22"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="A fake value"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:31fd3a36-2a91-4e26-a4d0-9ea995843f4f"/>
+          <timestamp value="2022-05-26T09:08:06+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake"/>
+            <code value="01"/>
+            <display value="VS1"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
