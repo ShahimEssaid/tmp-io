@@ -27,7 +27,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Your User Friendly Name for MyIG Here"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-26T07:11:58+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-26T07:32:03+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 International - [Some] Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

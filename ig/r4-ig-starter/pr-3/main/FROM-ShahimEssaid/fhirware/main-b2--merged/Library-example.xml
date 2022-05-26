@@ -68,7 +68,7 @@ define "Numerator":
       <code value="Patient"/>
     </coding>
   </subjectCodeableConcept>
-  <date value="2022-05-26T07:13:09+00:00"/>
+  <date value="2022-05-26T07:33:16+00:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
