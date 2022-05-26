@@ -3,7 +3,7 @@
 
 err = 10, warn = 2, info = 1
 IG Publisher Version: 1.1.120
-Generated Thu May 26 01:59:09 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Thu May 26 06:37:35 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 0 / 0
  /ig/fsh-generated/resources/StructureDefinition-fish-patient : 0 / 1 / 1
  /ig/fsh-generated/resources/StructureDefinition-veterinarian : 0 / 1 / 1
