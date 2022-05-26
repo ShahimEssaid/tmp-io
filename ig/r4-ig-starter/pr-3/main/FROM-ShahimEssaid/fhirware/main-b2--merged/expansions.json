@@ -1,0 +1,68 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "3a6475cc-b538-431a-96ef-c6e181d06691",
+  "meta" : {
+    "lastUpdated" : "2022-05-26T07:13:09.929+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "valueset-fake",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-fake.html\">CodeSystem fake v0.2.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-cs-fake.html\"><code>http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---somewhere.org-fhir-uv-myig-CodeSystem-cs-fake-01\"> </a>  <a href=\"CodeSystem-cs-fake.html#cs-fake-01\">01</a></td><td>VS1</td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"
+          }]
+        }
+      }],
+      "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake",
+      "version" : "0.2.0",
+      "name" : "ValueSetFake",
+      "title" : "ValueSet fake",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2015-06-22",
+      "publisher" : "HL7 International - [Some] Work Group",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hl7.org/Special/committees/[something]"
+        }]
+      }],
+      "description" : "A fake value",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:f8761f59-6037-49d0-9c86-58d59f88ea36",
+        "timestamp" : "2022-05-26T07:13:23+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.2.0"
+        }],
+        "contains" : [{
+          "system" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
+          "code" : "01",
+          "display" : "VS1"
+        }]
+      }
+    }
+  }]
+}
