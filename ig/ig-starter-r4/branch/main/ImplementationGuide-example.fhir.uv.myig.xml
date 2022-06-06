@@ -18,7 +18,7 @@
   <title value="Your User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-05-26T18:27:43+00:00"/>
+  <date value="2022-06-06T21:38:04+00:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -390,6 +390,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/valueset-fake"/>
+      </reference>
+      <name value="ValueSet fake"/>
+      <description value="A fake value"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -407,16 +417,6 @@
       </reference>
       <name value="My Observation Profile"/>
       <description value="A profile showing the use of XML to author profiles"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/valueset-fake"/>
-      </reference>
-      <name value="ValueSet fake"/>
-      <description value="A fake value"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
