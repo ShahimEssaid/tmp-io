@@ -1,0 +1,23 @@
+[
+  {
+    "id": "minimalr4",
+    "type": "ImplementationGuide",
+    "url": "http://example.com/minimal-r4/ImplementationGuide/minimalr4",
+    "version": "0.0.1",
+    "name": "Minimalr4"
+  },
+  {
+    "id": "fsh-patient",
+    "type": "StructureDefinition",
+    "url": "http://example.com/minimal-r4/StructureDefinition/fsh-patient",
+    "version": "0.0.1",
+    "name": "FshPatient"
+  },
+  {
+    "id": "r4-patient",
+    "type": "StructureDefinition",
+    "url": "http://example.com/minimal-r4/StructureDefinition/r4-patient",
+    "version": "0.0.1",
+    "name": "R4Patient"
+  }
+]
