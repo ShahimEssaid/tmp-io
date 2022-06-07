@@ -9,7 +9,7 @@
   <version value="0.0.1"/>
   <name value="Minimalr4"/>
   <status value="draft"/>
-  <date value="2022-06-07T00:03:18+00:00"/>
+  <date value="2022-06-07T00:32:19+00:00"/>
   <packageId value="minimalr4"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -33,14 +33,6 @@
       </extension>
       <extension url="value">
         <valueString value="2022+"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="autoload-resources"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -208,10 +200,20 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/fish-patient"/>
+        <reference value="StructureDefinition/r4-patient"/>
       </reference>
-      <name value="Fish Patient"/>
-      <description value="A patient that is a type of fish."/>
+      <name value="R4 Patient"/>
+      <description value="A patient that is a type of R4."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fsh-patient"/>
+      </reference>
+      <name value="Fsh Patient"/>
+      <description value="A patient that is a type of fsh."/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

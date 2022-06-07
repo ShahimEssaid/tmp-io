@@ -6,8 +6,12 @@
   "profiles": {
     "Patient": [
       {
-        "url": "http://example.com/minimal-r4/StructureDefinition/fish-patient",
-        "title": "Fish Patient"
+        "url": "http://example.com/minimal-r4/StructureDefinition/fsh-patient",
+        "title": "Fsh Patient"
+      },
+      {
+        "url": "http://example.com/minimal-r4/StructureDefinition/r4-patient",
+        "title": "R4 Patient"
       }
     ]
   },

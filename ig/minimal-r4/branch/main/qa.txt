@@ -1,14 +1,17 @@
 ﻿Minimalr4 : Validation Results
 =========================================
 
-err = 0, warn = 1, info = 0
+err = 0, warn = 2, info = 0
 IG Publisher Version: 1.1.121
-Generated Tue Jun 07 00:03:31 UTC 2022. FHIR version 4.0.1 for minimalr4#0.0.1 (canonical = http://example.com/minimal-r4)
+Generated Tue Jun 07 00:32:35 UTC 2022. FHIR version 4.0.1 for minimalr4#0.0.1 (canonical = http://example.com/minimal-r4)
  Build Errors : 0 / 0 / 0
- /ig/fsh-generated/resources/StructureDefinition-fish-patient : 0 / 1 / 1
+ /ig/fsh-generated/resources/StructureDefinition-fsh-patient : 0 / 1 / 1
  /ig/input/ig : 0 / 0 / 1
+ /ig/input/resources/StructureDefinition-r4-patient : 0 / 1 / 1
 </table>
 == n/a ==
-== fsh-generated/resources/StructureDefinition-fish-patient.json ==
-WARNING: StructureDefinition.where(url = 'http://example.com/minimal-r4/StructureDefinition/fish-patient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-fsh-patient.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/minimal-r4/StructureDefinition/fsh-patient'): The Implementation Guide contains no examples for this profile
 == input/ig.json ==
+== input/resources/StructureDefinition-r4-patient.json ==
+WARNING: StructureDefinition.where(url = 'http://example.com/minimal-r4/StructureDefinition/r4-patient'): The Implementation Guide contains no examples for this profile

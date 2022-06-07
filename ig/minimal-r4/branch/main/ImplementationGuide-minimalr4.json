@@ -9,7 +9,7 @@
   "version": "0.0.1",
   "name": "Minimalr4",
   "status": "draft",
-  "date": "2022-06-07T00:03:18+00:00",
+  "date": "2022-06-07T00:32:19+00:00",
   "packageId": "minimalr4",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -47,19 +47,6 @@
           {
             "url": "value",
             "valueString": "2022+"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "autoload-resources"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -334,10 +321,23 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/fish-patient"
+          "reference": "StructureDefinition/r4-patient"
         },
-        "name": "Fish Patient",
-        "description": "A patient that is a type of fish."
+        "name": "R4 Patient",
+        "description": "A patient that is a type of R4."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/fsh-patient"
+        },
+        "name": "Fsh Patient",
+        "description": "A patient that is a type of fsh."
       }
     ],
     "page": {
