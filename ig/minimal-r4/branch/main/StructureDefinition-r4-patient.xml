@@ -12,7 +12,7 @@
   <name value="R4Patient"/>
   <title value="R4 Patient"/>
   <status value="active"/>
-  <date value="2022-06-07T00:32:19+00:00"/>
+  <date value="2022-06-07T17:29:36+00:00"/>
   <description value="A patient that is a type of R4."/>
   <copyright value="Somemthing"/>
   <fhirVersion value="4.0.1"/>
